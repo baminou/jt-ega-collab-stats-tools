@@ -6,7 +6,7 @@ set -e
 #### Run:
 ####     ./jt_total_upload_size.sh jtracker-job-folder1 jtracker-job-folder-2 jtracker-job-folder-3 ...
 
-bash jt_validate_folders.sh $@
+#bash jt_validate_folders.sh $@
 
 sum=0
 for jt_folder in $@
